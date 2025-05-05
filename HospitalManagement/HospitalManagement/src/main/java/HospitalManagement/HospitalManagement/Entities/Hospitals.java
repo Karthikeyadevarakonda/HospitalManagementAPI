@@ -22,6 +22,9 @@ public class Hospitals {
     @Column(name = "hospital_description")
     private String hospitalDescription;
 
+    @Column(nullable = true)
+    private String hospital_image;
+
     @Column(name = "is_open", nullable = false)
     private Boolean isOpen;
 
